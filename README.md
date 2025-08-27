@@ -1,3 +1,25 @@
+## Assignment
+
+1. Faktorial suatu bilangan adalah hasil perkalian bilangan n dengan setiap
+bilangan sebelumnya hingga mencapai 1. Faktorial dari 0 adalah 1.
+Tugas, buatlah fungsi untuk bilangan bulat dari faktorial n dibagi 2 pangkat n,
+dengan sistem pembulatan hasil ke atas.
+f(n) = { (n!) ÷ (2
+n
+) }
+
+2. Dengan menggunakan framework web go fiber, buatlah sistem login dengan
+menggunakan data pada redis.
+Adapun format redis adalah sebagai berikut:
+key: login_<username>
+value:
+{
+“realname”:”Aberto Doni Sianturi”,
+“email”:”adss@gmail.com”
+“password”:”f7c3bc1d808e0 . . . 441”
+}
+Note: password = fungsi sha1
+
 # Login Redis App
 
 ## Testing
